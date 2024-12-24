@@ -1,0 +1,56 @@
+.main{
+background-image:url("bgimage.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    border-radius: 15px;
+}
+#div1{
+    background-color: rgba(244, 244, 247, 0.512);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    color: white;
+}
+
+#div2{
+    text-align: center;
+   
+    
+}
+.container{
+
+    display: flex;
+
+
+}
+.cls1,.cls2{
+    background-color: rgba(255, 255, 255, 0.547);
+    display: flex;
+    border-radius: 20px;
+    
+}
+.img1, .img2{
+    animation: blink 6s infinite;
+     display: flex;
+   
+     align-self: center;
+     position: absolute;
+}
+.img2{
+    animation-delay: 3s;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
