@@ -95,8 +95,7 @@ void main(){
         newnode->next=NULL;
         count++;
         if(head==NULL){
-            head=newnode;
-            temp=head;
+            head=temp=newnode;
         }
         else{
             temp->next=newnode;
